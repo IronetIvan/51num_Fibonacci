@@ -20,13 +20,13 @@ public class num_Fibonacci {
 		System.out.print(fib1 + " " + fib2 + " "); 
 
 		do{ 
-			int cur = fib1 + fib2; 
+			int resul = fib1 + fib2; 
 			fib1 = fib2; 
-			fib2 = cur; 
-			System.out.print(cur + " \n");
+			fib2 = resul; 
+			System.out.print(resul + " \n");
 			
 			cont++;
-		}while(cont < 50); 
+		}while(cont < 51); 
 
 	}
 
