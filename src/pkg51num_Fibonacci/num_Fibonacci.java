@@ -15,7 +15,9 @@ public class num_Fibonacci {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int fib1 = 0, fib2 = 1, cont = 0;
+        int fib1 = 0;
+	int fib2 = 1;
+	int cont = 0;
 		
 		System.out.print(fib1 + " " + fib2 + " "); 
 
@@ -26,7 +28,7 @@ public class num_Fibonacci {
 			System.out.print(resul + " \n");
 			
 			cont++;
-		}while(cont < 51); 
+		}while(cont <= 51); 
 
 	}
 
